@@ -10,7 +10,7 @@
   </head>
 
   <body class="body">
-    <form action="index.html" class="signup">
+    <form action="index.html" class="form-signup">
       <h1 class="form__title">Signup</h1>
       <!-- <div class="form__message form__message--error">Incorrect username/password combination!</div>  -->
       <div class="form__input-group">
@@ -18,16 +18,24 @@
           type="email"
           name="email"
           class="login-input"
-          placeholder="Email Address"
+          placeholder="Email..."
           autofocus
           autocomplete="Username"
         />
+        <br />
         <input
           type="password"
           name="password"
           class="login-input"
-          placeholder="Password"
+          placeholder="Contraseña"
           autocomplete="current-password"
+        />
+        <input
+          type="repeat-password"
+          name="repeat-password"
+          class="signup-input"
+          placeholder="Repetir Contraseña"
+          autocomplete="repeat-password"
         />
         <br />
         <button class="form__button" type="submit">Crear cuenta</button>
