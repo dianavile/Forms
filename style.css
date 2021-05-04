@@ -1,1 +1,18 @@
+.body {
+  --color-primary: #f2f2f2;
+  --color-primary-gray: #bfbfbf;
+  --color-primary-dark: #8b308c;
+  --color-secondary-light: #a581a6;
+  --color-secondary-dark: #8b318c;
+  --color-error: #cc3333;
+  --color-succes: #4bb544;
+  --border-radius: 4px;
 
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  background: url("./Assets/background.jpg");
+}
